@@ -1,0 +1,73 @@
+# =========================
+# Visual Studio files
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# NuGet packages
+# =========================
+packages/
+*.nupkg
+.nuget/
+
+# =========================
+# Selenium / WebDriver
+# =========================
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+
+# =========================
+# Logs & reports
+# =========================
+*.log
+Reports/
+Screenshots/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Rider / VS Code
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment / secrets
+# =========================
+appsettings.json
+appsettings.*.json
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.cache
